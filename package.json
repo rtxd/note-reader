@@ -7,13 +7,23 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
   },
   "dependencies": {
     "@nuxt/eslint": "^1.9.0",
+    "@octokit/rest": "^21.0.0",
+    "dompurify": "^3.1.6",
     "eslint": "^9.37.0",
+    "markdown-it": "^14.1.0",
     "nuxt": "^4.1.2",
     "vue": "^3.5.22",
     "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.5",
+    "@types/node": "^22.7.5",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^2.1.4"
   }
 }
